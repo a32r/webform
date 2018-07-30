@@ -10,3 +10,16 @@ h1 {
 form {
 	// margin-top: 200px;
 }
+
+.block {
+	display: flex;
+
+	& div:first-child {
+		width: 30%;
+	}
+
+	& div:last-child {
+		margin-left: auto;
+		width: 30%;
+	}
+}

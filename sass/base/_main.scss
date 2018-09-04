@@ -9,6 +9,9 @@ h1 {
 
 form {
 	// margin-top: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .block {
@@ -22,4 +25,18 @@ form {
 		margin-left: auto;
 		width: 30%;
 	}
+}
+
+.left {
+	// flex: 1 0 40%;
+	background: lightyellow;
+}
+
+.right {
+	// flex: 1 0 40%;
+	background: lightgray;
+}
+
+.left, .right {
+	width: 45%;
 }

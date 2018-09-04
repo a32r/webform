@@ -8,131 +8,146 @@
 <body>
 	<div class="logo">Proektmarketing+1</div>
 	<h1>Я &mdash; разработчик</h1>
-	<form action="">
-		<div class="block">
+	<form id="form" action="">
+		<fieldset form="form" class="left">
 			<div>
 				<h3>Расскажите о себе</h3>
-				<p>Поля не являются обязательными, но помимо вашего имени, нам хотелось знать из какого вы города, сколько вам лет и как с вами связаться </p>
+				<p>Поля не являются обязательными, но помимо вашего имени, нам хотелось знать из какого вы города, сколько вам лет и как с вами связаться</p>
 			</div>
-			<div>
-				<label>
-					Имя
-					<input type="text">
-				</label>
-				<input type="text" placeholder="Год рождения">
-				<input type="text" placeholder="Город">
-				<input type="text" placeholder="Телеграм">
-				<input type="text" placeholder="Почта">
-			</div>
-		</div>
-		<h3>Отметьте ваши навыки</h3>
-		<label>
-			<input type="checkbox">
-			БЭМ/OOCSS
-		</label>
-		<label>
-			<input type="checkbox">
-			Puge (Jade)
-		</label>
-		<label>
-			<input type="checkbox">
-			Stylus/LESS/SASS
-		</label>
-		<label>
-			<input type="checkbox">
-			Работаю с SVG
-		</label>
-		<label>
-			<input type="checkbox">
-			Верстаю семантично
-		</label>
-		<label>
-			<input type="checkbox">
-			Acessibility (A11Y)
-		</label>
-		<label>
-			<input type="checkbox">
-			ES2015/ES2016
-		</label>
-		<label>
-			<input type="checkbox">
-			Webpack
-		</label>
-		<label>
-			<input type="checkbox">
-			Дружу с WebGL
-		</label>
-		<label>
-			<input type="checkbox">
-			jQuery
-		</label>
-		<label>
-			<input type="checkbox">
-			Знаю/изучаю Angular
-		</label>
-		<label>
-			<input type="checkbox">
-			Знаю/изучаю React
-		</label>
-		<label>
-			<input type="checkbox">
-			Знаю/изучаю Node.js
-		</label>
-		<label>
-			<input type="checkbox">
-			Использую Git
-		</label>
-		<label>
-			<input type="checkbox">
-			С глазомером все ок
-		</label>
-		<label>
-			<input type="checkbox">
-			Я ленивый(-ая)
-		</label>
-		<label>
-			<input type="checkbox">
-			У меня хороший английский
-		</label>
-		<h3>Уровень владения Javascript</h3>
-		<label>
-			<input name="level" type="radio">
-			Не владею
-		</label>
-		<label>
-			<input name="level" type="radio" checked>
-			Использую готовые решения
-		</label>
-		<label>
-			<input name="level" type="radio">
-			Использую готовые решения, умею их переделывать
-		</label>
-		<label>
-			<input name="level" type="radio">
-			Пишу сложный JS с нуля
-		</label>
-		<h3>Рааскажите о себе словами</h3>
-		<p>Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в Proektmarketing. Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.</p>
-		<textarea cols="30" rows="10" placeholder="Введите текст"></textarea>
-		<h3>Какие у вас планы на будующее</h3>
-		<p>Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.</p>
-		<label>
-			<input name="future" type="radio" checked>
-			Верстать
-		</label>
-		<label>
-			<input name="future" type="radio">
-			Прокачиваться в JS
-		</label>
-		<label>
-			<input name="future" type="radio">
-			Менеджерство
-		</label>
-		<label>
-			<input name="future" type="radio">
-			Другое (уйти в калиграфию, быть как Покрас Лампас)
-		</label>
-		<input type="submit">
+		</fieldset>
+		<fieldset form="form" class="right">
+			<label>
+				Имя
+				<input type="text" placeholder="Александр Нестеров">
+			</label>
+			<input type="text" placeholder="Год рождения">
+			<input type="text" placeholder="Город">
+			<input type="text" placeholder="Телеграм">
+			<input type="text" placeholder="Почта">
+		</fieldset>
+		<fieldset class="left">
+			<h3>Отметьте ваши навыки</h3>
+			<p>Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантированно будете справляться.</p>
+		</fieldset>
+		<fieldset form="form" class="right">
+			<label>
+				<input type="checkbox">
+				БЭМ/OOCSS
+			</label>
+			<label>
+				<input type="checkbox">
+				Puge (Jade)
+			</label>
+			<label>
+				<input type="checkbox">
+				Stylus/LESS/SASS
+			</label>
+			<label>
+				<input type="checkbox">
+				Работаю с SVG
+			</label>
+			<label>
+				<input type="checkbox">
+				Верстаю семантично
+			</label>
+			<label>
+				<input type="checkbox">
+				Acessibility (A11Y)
+			</label>
+			<label>
+				<input type="checkbox">
+				ES2015/ES2016
+			</label>
+			<label>
+				<input type="checkbox">
+				Webpack
+			</label>
+			<label>
+				<input type="checkbox">
+				Дружу с WebGL
+			</label>
+			<label>
+				<input type="checkbox">
+				jQuery
+			</label>
+			<label>
+				<input type="checkbox">
+				Знаю/изучаю Angular
+			</label>
+			<label>
+				<input type="checkbox">
+				Знаю/изучаю React
+			</label>
+			<label>
+				<input type="checkbox">
+				Знаю/изучаю Node.js
+			</label>
+			<label>
+				<input type="checkbox">
+				Использую Git
+			</label>
+			<label>
+				<input type="checkbox">
+				С глазомером все ок
+			</label>
+			<label>
+				<input type="checkbox">
+				Я ленивый(-ая)
+			</label>
+			<label>
+				<input type="checkbox">
+				У меня хороший английский
+			</label>
+		</fieldset>
+		<fieldset form="form">
+			<h3>Уровень владения Javascript</h3>
+			<label>
+				<input name="level" type="radio">
+				Не владею
+			</label>
+			<label>
+				<input name="level" type="radio" checked>
+				Использую готовые решения
+			</label>
+			<label>
+				<input name="level" type="radio">
+				Использую готовые решения, умею их переделывать
+			</label>
+			<label>
+				<input name="level" type="radio">
+				Пишу сложный JS с нуля
+			</label>
+		</fieldset>
+		<fieldset form="form" class="left">
+			<h3>Расскажите о себе словами</h3>
+			<p>Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в Proektmarketing. Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.</p>
+		</fieldset>
+		<fieldset form="form" class="right">
+			<textarea cols="30" rows="10" placeholder="Введите текст"></textarea>
+		</fieldset>
+		<fieldset form="form" class="left">
+			<h3>Какие у вас планы на будующее</h3>
+			<p>Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.</p>
+		</fieldset>
+		<fieldset form="form" class="right">
+			<label>
+				<input name="future" type="radio" checked>
+				Верстать
+			</label>
+			<label>
+				<input name="future" type="radio">
+				Прокачиваться в JS
+			</label>
+			<label>
+				<input name="future" type="radio">
+				Менеджерство
+			</label>
+			<label>
+				<input name="future" type="radio">
+				Другое (уйти в калиграфию, быть как Покрас Лампас)
+			</label>
+			<input type="submit">
+		</fieldset>
 	</form>
 </body>
 </html>

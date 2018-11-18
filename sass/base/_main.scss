@@ -43,8 +43,13 @@ form {
 }
 
 .right {
+	display: flex;
 	background: lightgray;
 	margin-bottom: 150px;
+
+	& > * {
+		width: 100%;
+	}
 }
 
 .left, .right {

@@ -1,5 +1,6 @@
 body {
-	margin: 30px;
+	width: 900px;
+	margin: 30px auto;
 }
 
 .logo {
@@ -25,26 +26,13 @@ form {
 	justify-content: space-between;
 }
 
-.block {
-	display: flex;
-
-	& div:first-child {
-		width: 30%;
-	}
-
-	& div:last-child {
-		margin-left: auto;
-		width: 30%;
-	}
-}
-
 .left {
 	background: lightyellow;
 }
 
 .right {
 	display: flex;
-	background: lightgray;
+	// background: lightgray;
 	margin-bottom: 150px;
 
 	& > * {
@@ -54,4 +42,23 @@ form {
 
 .left, .right {
 	width: 45%;
+}
+
+.first {
+
+	input {
+		margin-bottom: 10px;
+		outline: none;
+		border: none;
+		border-bottom: 2px solid $backColor;
+
+		&:last-of-type {
+			margin-bottom: auto;
+		}
+
+		&:hover, &:focus {
+			border-bottom: 2px solid $selectColor;
+		}
+	}
+
 }

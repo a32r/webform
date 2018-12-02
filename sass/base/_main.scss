@@ -46,7 +46,7 @@ form {
 
 .first {
 
-	input {
+	input[type=text] {
 		margin-bottom: 10px;
 		outline: none;
 		border: none;
@@ -61,4 +61,22 @@ form {
 		}
 	}
 
+}
+
+.second {
+
+	input[type=checkbox] {
+		display: none;
+	}
+
+	label {
+
+		&::before {
+			display: inline-block;
+			content: "";
+			background: url("img/checkbox.png");
+			width: 20px;
+			height: 20px;
+		}
+	}
 }

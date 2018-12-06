@@ -64,30 +64,7 @@ form {
 }
 
 .second {
-
-	label {
-		position: relative;
-		margin-bottom: 15px;
-
-		input[type=checkbox] {
-			opacity: 0;
-			margin-left: 10px;
-		}
-
-		&::before {
-			position: absolute;
-			display: inline-block;
-			content: "";
-			background: url("img/checkbox.png") no-repeat right;
-			width: 20px;
-			height: 20px;
-		}
-	}
-
-	label:hover {
-
-		&::before {
-			background: url("img/checkbox.png") no-repeat center;
-		}
+	input[type=checkbox] {
+		display: none;
 	}
 }

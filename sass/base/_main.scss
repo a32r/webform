@@ -31,7 +31,6 @@ form {
 }
 
 .right {
-	display: flex;
 	// background: lightgray;
 	margin-bottom: 150px;
 
@@ -56,7 +55,11 @@ form {
 			margin-bottom: auto;
 		}
 
-		&:hover, &:focus {
+		&:hover {
+			border-bottom: 2px solid $hoverColor;
+		}
+
+		&:focus {
 			border-bottom: 2px solid $selectColor;
 		}
 	}
@@ -65,15 +68,33 @@ form {
 
 .second {
 
+	label {
+		position: relative;
+		margin: 0 100% 30px $indent;
+	}
+
 	input[type=checkbox] {
 		display: none;
 
 		& + label::before {
+			position: absolute;
+			left: -$indent;
 			display: inline-block;
 			content: "";
-			background: url("img/checkbox.png") no-repeat;
+			background: url("img/checkbox.png") no-repeat right;
 			width: 20px;
 			height: 20px;
+		}
+
+		& + label:hover::before {
+			background: url("img/checkbox.png") no-repeat center;
+		}
+
+		&:checked {
+
+			& + label::before {
+				background: url("img/checkbox.png") no-repeat;
+			}
 		}
 	}
 }

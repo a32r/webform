@@ -115,3 +115,13 @@ form {
 		}
 	}
 }
+
+hr {
+	width: 100%;
+	border: 1px solid $selectColor;
+}
+
+.third {
+	display: flex;
+	flex-flow: row;
+}

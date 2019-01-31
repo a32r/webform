@@ -122,6 +122,16 @@ hr {
 }
 
 .third {
-	display: flex;
-	flex-flow: row;
+	// width: 100%;
+	// display: flex;
+	// flex-flow: row nowrap;
+
+	div {
+		background-color: lightgray;
+		// width: 25%;
+	}
+
+	input[type=radio] {
+		display: none;
+	}
 }

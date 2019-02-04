@@ -122,13 +122,14 @@ hr {
 }
 
 .third {
-	// width: 100%;
-	// display: flex;
-	// flex-flow: row nowrap;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7em;
 
 	div {
-		background-color: lightgray;
-		// width: 25%;
+		// background-color: lightgray;
+		width: 15%;
 	}
 
 	input[type=radio] {

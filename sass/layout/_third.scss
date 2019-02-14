@@ -1,0 +1,42 @@
+.third {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1em;
+	margin-bottom: 7em;
+
+	div {
+		// background-color: lightgray;
+		width: 15%;
+	}
+
+	label {
+		position: relative;
+		display: inline-block;
+	}
+
+	input[type=radio] {
+		display: none;
+
+		& + label::before {
+			position: absolute;
+			top: -35px;
+			left: 55px;
+			content: "";
+			background: url("img/radio.png") no-repeat right;
+			width: 20px;
+			height: 20px;
+		}
+
+		& + label:hover::before {
+			background: url("img/radio.png") no-repeat center;
+		}
+
+		&:checked {
+
+			& + label::before {
+				background: url("img/radio.png") no-repeat left;
+			}
+		}
+	}
+}

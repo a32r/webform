@@ -1,0 +1,21 @@
+.first {
+
+	input[type=text] {
+		margin-bottom: 10px;
+		outline: none;
+		border: none;
+		border-bottom: 2px solid $backColor;
+
+		&:last-of-type {
+			margin-bottom: auto;
+		}
+
+		&:hover {
+			border-bottom: 2px solid $hoverColor;
+		}
+
+		&:focus {
+			border-bottom: 2px solid $selectColor;
+		}
+	}
+}

@@ -39,4 +39,18 @@
 			}
 		}
 	}
+
+	div:first-of-type {
+
+		label::before {
+			left: -5px; 
+		}
+	}
+
+	div:last-of-type {
+
+		label::before {
+			left: 84%;
+		}
+	}
 }

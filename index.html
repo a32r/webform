@@ -14,7 +14,7 @@
 			<p>Поля не являются обязательными, но помимо вашего имени, нам хотелось знать из какого вы города, сколько вам лет и как с вами связаться</p>
 		</div>
 		<div form="form" class="right first">
-			<input type="text" placeholder="Имя">
+			<input type="text" placeholder="Имя" autofocus>
 			<input type="text" placeholder="Год рождения">
 			<input type="text" placeholder="Город">
 			<input type="text" placeholder="Телеграм">
@@ -26,7 +26,7 @@
 		</div>
 		<div form="form" class="right second">
 			<div>
-				<input type="checkbox" id="checkbox_1">
+				<input type="checkbox" id="checkbox_1" checked>
 				<label for="checkbox_1">
 					БЭМ/OOCSS
 				</label>
@@ -173,23 +173,31 @@
 		<div form="form" class="left">
 			<p>Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.</p>
 		</div>
-		<div form="form" class="right">
-			<label>
-				<input name="future" type="radio" checked>
-				Верстать
-			</label>
-			<label>
-				<input name="future" type="radio">
-				Прокачиваться в JS
-			</label>
-			<label>
-				<input name="future" type="radio">
-				Менеджерство
-			</label>
-			<label>
-				<input name="future" type="radio">
-				Другое (уйти в калиграфию, быть как Покрас Лампас)
-			</label>
+		<div form="form" class="right four">
+			<div>
+				<input name="future" type="radio" checked id="radio2_1">
+				<label for="radio2_1">
+					Верстать
+				</label>
+			</div>
+			<div>
+				<input name="future" type="radio" id="radio2_2">
+				<label for="radio2_2">
+					Прокачиваться в JS
+				</label>
+			</div>
+			<div>
+				<input name="future" type="radio" id="radio2_3">
+				<label for="radio2_3">
+					Менеджерство
+				</label>
+			</div>
+			<div>
+				<input name="future" type="radio" id="radio2_4">
+				<label for="radio2_4">
+					Другое (уйти в калиграфию, быть как Покрас Лампас)
+				</label>
+			</div>
 			<input type="submit">
 		</div>
 	</form>

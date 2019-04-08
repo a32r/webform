@@ -34,8 +34,12 @@ form {
 	// background: lightgray;
 	margin-bottom: 150px;
 
-	& > * {
+	* {
 		width: 100%;
+	}
+
+	textarea {
+		padding: 1em;
 	}
 }
 

@@ -1,0 +1,41 @@
+.four {
+	margin-top: 3em;
+
+	div {
+		margin-bottom: 5em;
+		width: 45%;
+		float: left;
+	}
+
+	div:nth-of-type(even) {
+		width: 55%;
+	}
+
+	label {
+		position: relative;
+	}
+
+	input[type=radio] {
+		display: none;
+
+		& + label::before {
+			position: absolute;
+			top: -50px;
+			width: 37px;
+			height: 37px;
+			content: "";
+			background: url("img/radio2.png") no-repeat right;
+		}
+
+		& + label:hover::before {
+			background: url("img/radio2.png") no-repeat center;
+		}
+
+		&:checked {
+
+			& + label::before {
+				background: url("img/radio2.png") no-repeat;
+			}
+		}
+	}
+}

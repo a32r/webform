@@ -20,7 +20,7 @@
 
 		& + label::before {
 			position: absolute;
-			top: -35px;
+			top: -36px;
 			left: 55px;
 			content: "";
 			background: url("img/radio.png") no-repeat right;
@@ -50,7 +50,7 @@
 	div:last-of-type {
 
 		label::before {
-			left: 84%;
+			left: 92%;
 		}
 	}
 }

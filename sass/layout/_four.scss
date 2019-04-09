@@ -11,6 +11,10 @@
 		width: 55%;
 	}
 
+	div:last-of-type {
+		margin-bottom: initial;
+	}
+
 	label {
 		position: relative;
 	}

@@ -1,6 +1,9 @@
 body {
-	width: 900px;
+	width: 1200px;
 	margin: 30px auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
 }
 
 .logo {
@@ -27,11 +30,11 @@ form {
 }
 
 .left {
-	// background: lightyellow;
+	width: 40%;
 }
 
 .right {
-	// background: lightgray;
+	width: 45%;
 	margin-bottom: 150px;
 
 	* {
@@ -43,23 +46,22 @@ form {
 	}
 }
 
-.left, .right {
-	width: 45%;
+hr {
+	width: 100%;
+	border: 1px solid $selectColor;
 }
-	
+
 input[type=submit] {
+	font-size: 1.1em;
 	width: 152px;
 	height: 48px;
 	border-radius: 24px;
 	margin-left: 55%;
-	margin-bottom: 12em;
 	border-style: none;
 	color: $selectColor;
 	background: black;
-
 }
-
-hr {
-	width: 98%;
-	border: 1px solid $selectColor;
+::placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
 }

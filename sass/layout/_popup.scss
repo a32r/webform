@@ -1,0 +1,24 @@
+#popup {
+	position: absolute;
+	width: $popupDim*1.5;
+	height: $popupDim;
+	overflow: hidden;
+	left: $popupDim/2;
+	background: lightyellow;
+	border: 2px solid $selectColor;
+	border-radius: 10px;
+	// padding: 10px;
+	box-shadow: 0 0 20px 5px $hoverColor;
+	display: none;
+
+	h6 {
+		padding: 0 10px;
+		background: linear-gradient(to bottom, $selectColor, $hoverColor);
+		border-bottom: 2px solid rgb(167, 206, 145);
+		line-height: 2em;
+	}
+
+	p {
+		padding: 0 10px 10px;
+	}
+}
